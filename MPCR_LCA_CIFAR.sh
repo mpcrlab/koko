@@ -14,4 +14,4 @@ module load slurm
 echo "Running MPCR LCA on CIFAR10"
 
 
-srun matlab -nodisplay -nosplash -nodesktop -r "run('HahnLCA_Dictionary_RGB_CIFAR_Block_KOKO.m')"
+srun matlab -nodisplay -nosplash -nodesktop -r "run('MPCR_LCA_Dictionary_RGB_CIFAR_Block_KOKO.m')"
